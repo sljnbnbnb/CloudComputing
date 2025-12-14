@@ -1,0 +1,21 @@
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_041739",
+  "parallel_streams": 1,
+  "bandwidth_mbps": 32840.93,
+  "server": "172.31.43.19"
+}
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_041739",
+  "parallel_streams": 4,
+  "bandwidth_mbps": 36513.47,
+  "server": "172.31.43.19"
+}
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_041739",
+  "parallel_streams": 8,
+  "bandwidth_mbps": 33960.05,
+  "server": "172.31.43.19"
+}

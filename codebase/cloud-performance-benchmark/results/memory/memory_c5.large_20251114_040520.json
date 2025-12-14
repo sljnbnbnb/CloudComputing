@@ -1,0 +1,14 @@
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_040520",
+  "operation": "read",
+  "bandwidth_mibs": (11132.70,
+  "threads": 2
+}
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_040520",
+  "operation": "write",
+  "bandwidth_mibs": (7578.41,
+  "threads": 2
+}

@@ -1,0 +1,14 @@
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_040320",
+  "threads": 1,
+  "events_per_second": 447.65,
+  "avg_latency_ms": 2.23
+}
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251114_040320",
+  "threads": 2,
+  "events_per_second": 701.82,
+  "avg_latency_ms": 2.85
+}

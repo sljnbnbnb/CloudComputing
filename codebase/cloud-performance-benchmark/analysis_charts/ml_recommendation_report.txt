@@ -1,0 +1,26 @@
+Instance Recommendation Report
+==============================
+
+Scenario: High-Traffic Web Server
+  Input: [8, 4, 'Web', 'No']
+  Recommendation: c5.large
+  Confidence: {'c5.large': np.float64(1.0), 'm5.large': np.float64(0.0), 't3.medium': np.float64(0.0)}
+
+Scenario: Production MySQL DB
+  Input: [5, 8, 'DB', 'No']
+  Recommendation: m5.large
+  Confidence: {'c5.large': np.float64(0.0), 'm5.large': np.float64(1.0), 't3.medium': np.float64(0.0)}
+
+Scenario: Student Dev Environment
+  Input: [2, 2, 'Dev', 'Yes']
+  Recommendation: t3.medium
+  Confidence: {'c5.large': np.float64(0.0), 'm5.large': np.float64(0.0), 't3.medium': np.float64(1.0)}
+
+Decision Tree Logic:
+|--- CPU <= 7.00
+|   |--- Mem <= 5.50
+|   |   |--- class: t3.medium
+|   |--- Mem >  5.50
+|   |   |--- class: m5.large
+|--- CPU >  7.00
+|   |--- class: c5.large

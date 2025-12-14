@@ -1,0 +1,14 @@
+{
+  "instance_type": "m5.large",
+  "timestamp": "20251114_034306",
+  "threads": 1,
+  "events_per_second": 407.71,
+  "avg_latency_ms": 2.45
+}
+{
+  "instance_type": "m5.large",
+  "timestamp": "20251114_034306",
+  "threads": 2,
+  "events_per_second": 638.67,
+  "avg_latency_ms": 3.13
+}

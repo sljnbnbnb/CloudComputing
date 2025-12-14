@@ -1,0 +1,4 @@
+Instance Type,CPU (events/s),Memory Read (MiB/s),Memory Write (MiB/s),Disk IOPS (randread),Network (Gbps)
+c5.large,701.82,11132.7,7578.41,787.701123,36.51347
+m5.large,638.67,10009.55,6848.76,775.92352,34.116699999999994
+t3.medium,643.79,10204.2,6968.24,826.741745,39.41133

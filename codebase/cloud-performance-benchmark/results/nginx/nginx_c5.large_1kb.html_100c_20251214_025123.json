@@ -1,0 +1,13 @@
+{
+  "instance_type": "c5.large",
+  "timestamp": "20251214_025123",
+  "target_file": "static/1kb.html",
+  "connections": 100,
+  "threads": 4,
+  "duration": "60s",
+  "requests_per_sec": "38778.17",
+  "transfer_per_sec": "51.11MB",
+  "latency_avg": "2.58ms",
+  "latency_stdev": "295.36us",
+  "latency_max": "33.22ms"
+}

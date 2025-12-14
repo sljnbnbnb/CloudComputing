@@ -1,0 +1,13 @@
+{
+  "instance_type": "t3.medium",
+  "timestamp": "20251214_024804",
+  "target_file": "static/1kb.html",
+  "connections": 1000,
+  "threads": 4,
+  "duration": "60s",
+  "requests_per_sec": "33535.02",
+  "transfer_per_sec": "44.20MB",
+  "latency_avg": "33.89ms",
+  "latency_stdev": "68.40ms",
+  "latency_max": "2.00s"
+}

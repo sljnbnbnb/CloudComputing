@@ -1,0 +1,43 @@
+# Cloud Performance Benchmark Configuration
+
+# AWS Region
+region: us-east-1
+
+# Instance types to test
+instances:
+  - type: t3.medium
+    vcpu: 2
+    memory: 4
+  - type: m5.large
+    vcpu: 2
+    memory: 8
+  - type: c5.large
+    vcpu: 2
+    memory: 4
+
+# Benchmark tests
+tests:
+  cpu:
+    tool: sysbench
+    max_prime: 20000
+    duration: 60  # seconds
+  
+  memory:
+    tool: sysbench
+    total_size: 10G
+    operation: write
+  
+  disk:
+    tool: fio
+    size: 4G
+    runtime: 60
+    
+  network:
+    tool: iperf3
+    duration: 30
+    parallel: 4
+
+# Output settings
+output:
+  format: json
+  directory: ./results

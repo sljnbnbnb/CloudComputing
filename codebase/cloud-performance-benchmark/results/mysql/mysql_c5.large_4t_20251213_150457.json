@@ -1,0 +1,1 @@
+{"instance_type":"c5.large","timestamp":"20251213_150457","threads":4,"tps":"867.11","qps":"17342.29","reads":"2185232","writes":"624352","latency_avg_ms":"4.61","latency_95th_ms":"6.67"}

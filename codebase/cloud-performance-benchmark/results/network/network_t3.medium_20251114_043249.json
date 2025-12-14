@@ -1,0 +1,21 @@
+{
+  "instance_type": "t3.medium",
+  "timestamp": "20251114_043249",
+  "parallel_streams": 1,
+  "bandwidth_mbps": 39411.33,
+  "server": "172.31.70.221"
+}
+{
+  "instance_type": "t3.medium",
+  "timestamp": "20251114_043249",
+  "parallel_streams": 4,
+  "bandwidth_mbps": 30374.75,
+  "server": "172.31.70.221"
+}
+{
+  "instance_type": "t3.medium",
+  "timestamp": "20251114_043249",
+  "parallel_streams": 8,
+  "bandwidth_mbps": 26149.02,
+  "server": "172.31.70.221"
+}
